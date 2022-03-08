@@ -5,17 +5,17 @@ Red DiscordBot configurations for Dronefly and associated bots
 
 ### Dronefly
 
-**Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
-**Public:** no (but invites may be available on request)
-**Purpose:** use naturalist-related infosystems: iNaturalist, eBird, etc.
-**Prefixes:** `,`
+- **Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
+- **Public:** no (but invites may be available on request)
+- **Purpose:** use naturalist-related infosystems: iNaturalist, eBird, etc.
+- **Prefixes:** `,`
 
 ### SeedWasp
 
-**Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
-**Public:** no
-**Purpose:** test instance for Red-DiscordBot 3.5 / discord.py 2.0 migration
-**Prefixes:** `w,`
+- **Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
+- **Public:** no
+- **Purpose:** test instance for Red-DiscordBot 3.5 / discord.py 2.0 migration
+- **Prefixes:** `w,`
 
 #### cogs
 
@@ -28,21 +28,21 @@ Red DiscordBot configurations for Dronefly and associated bots
 
 ### Dumbo
 
-**Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
-**Public:** no
-**Purpose:** general purpose server info and management
-**Prefixes:** `-`
+- **Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
+- **Public:** no
+- **Purpose:** general purpose server info and management
+- **Prefixes:** `-`
 
 ### Pickerel
 
-**Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
-**Public: no**
-**Purpose:** audio
-**Prefixes:** `$`
+- **Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
+- **Public: no**
+- **Purpose:** audio
+- **Prefixes:** `$`
 
 ### CuckooBee
 
-**Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
-**Public: no**
-**Purpose:** development
-**Prefixes:** `c.`
+- **Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)
+- **Public: no**
+- **Purpose:** development
+- **Prefixes:** `c.`

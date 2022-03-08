@@ -22,9 +22,11 @@ Red DiscordBot configurations for Dronefly and associated bots
 - **inatcog** repo: Dronefly-dpy2 https://github.com/dronefly-garden/dronefly dpy2
 - **botstatus** repo: Dav-Cogs https://github.com/Dav-Git/Dav-Cogs
 - **converters** repo: predacogs https://github.com/PredaaA/predacogs
+    - not in use on Dronefly; testing for Dumbo
 - **downloader** core
 - **embedutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
 - **weather** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+    - not in use on Dronefly; testing for Dumbo
 
 ### Dumbo
 

@@ -13,23 +13,23 @@ Red DiscordBot configurations for Dronefly and associated bots
 #### cogs
 
 - **botstatus** repo: Dav-Cogs https://github.com/Dav-Git/Dav-Cogs
-- **cleanup**
-- **commandstats**
+- **cleanup** core (requires Manage Messages permission)
+- **commandstats** repo: Flare-Cogs https://github.com/flaree/Flare-Cogs
 - **downloader** core
-- **ebirdcog** repo: Dronefly
+- **ebirdcog** repo: Dronefly https://github.com/dronefly-garden/dronefly
 - **embedutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
-- **extendedmodlog**
-- **fifo**
+- **extendedmodlog** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+- **fifo** repo: Fox-V3 https://github.com/bobloy/Fox-V3
 - **inatcog** repo: Dronefly https://github.com/dronefly-garden/dronefly
-- **modlog**
-- **permissions**
-- **retrigger**
-- **rss**
-- **rssnotifier**
-- **say**
-- **serverstats**
-- **tags**
-- **welcome**
+- **modlog** core
+- **permissions** core
+- **retrigger** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+- **rss** repo: aikaterna-cogs https://github.com/aikaterna/aikaterna-cogs
+- **rssnotifier** repo: JackCogs https://github.com/jack1142/JackCogs
+- **say** repo: Laggrons-Dumb-Cogs https://github.com/retke/Laggrons-Dumb-Cogs
+- **serverstats** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+- **tags** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
+- **welcome** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
 
 ### SeedWasp
 

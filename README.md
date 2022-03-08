@@ -64,6 +64,8 @@ Red DiscordBot configurations for Dronefly and associated bots
 - **Purpose:** test instance for Red-DiscordBot 3.5 / discord.py 2.0 migration
 - **Prefixes:** `w,`
 
+See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thorough accounting of work-in-progress to bring SeedWasp to a state where it uses everything that Dronefly does, with all of it supported on discord.py 2.0.
+
 #### cogs
 
 - **inatcog** repo: Dronefly-dpy2 https://github.com/dronefly-garden/dronefly dpy2

@@ -10,6 +10,27 @@ Red DiscordBot configurations for Dronefly and associated bots
 - **Purpose:** use naturalist-related infosystems: iNaturalist, eBird, etc.
 - **Prefixes:** `,`
 
+#### cogs
+
+- **botstatus** repo: Dav-Cogs https://github.com/Dav-Git/Dav-Cogs
+- **cleanup**
+- **commandstats**
+- **downloader** core
+- **ebirdcog** repo: Dronefly
+- **embedutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
+- **extendedmodlog**
+- **fifo**
+- **inatcog** repo: Dronefly https://github.com/dronefly-garden/dronefly
+- **modlog**
+- **permissions**
+- **retrigger**
+- **rss**
+- **rssnotifier**
+- **say**
+- **serverstats**
+- **tags**
+- **welcome**
+
 ### SeedWasp
 
 - **Operator:** `@SyntheticBee` on Discord (GitHub: @synrg)

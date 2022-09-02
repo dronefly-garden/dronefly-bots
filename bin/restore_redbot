@@ -1,0 +1,35 @@
+#!/bin/bash
+set -e
+if [ "bgpc" = "$(hostname)" ]
+then
+    "Refusing to restore on primary host. Restore manually if necessary."
+    exit 1
+fi
+bots="Dronefly Dumbo Polistes"
+echo "Restoring latest bot backups ..."
+echo
+for bot in $bots
+do
+    backupfile=$(find "${HOME}/backups/redbot" -name "redv3_${bot}*" | sort | tail -n1)
+    if ! [ -f "${backupfile}" ]
+    then
+        "No backup found for ${bot}. Skipping ..."
+        continue
+    fi
+    targetdir="${HOME}/.local/share/${bot}"
+    if ! [ -d "${targetdir}" ]
+    then
+        mkdir "${targetdir}"
+    fi
+    pushd "$targetdir" > /dev/null
+    echo "    Restoring ${bot}: $backupfile ..."
+    tar -xzf "$backupfile"
+done
+popd >/dev/null
+echo
+echo "Start bot instances with these commands:"
+echo
+for bot in $bots
+do
+    echo "    systemctl --user start red@${bot}"
+done

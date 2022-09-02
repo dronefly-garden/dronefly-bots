@@ -1,0 +1,17 @@
+[Unit]
+Description=%I redbot
+After=multi-user.target
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+EnvironmentFile=/home/redbot/.config/systemd/user/red.env
+ExecStart=/home/redbot/.local/bin/python3.9 -O -m redbot %I --no-prompt
+Type=idle
+Restart=always
+RestartSec=15
+RestartPreventExitStatus=0
+TimeoutStopSec=10
+
+[Install]
+WantedBy=default.target

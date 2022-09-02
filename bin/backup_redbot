@@ -1,0 +1,7 @@
+#!/bin/bash
+$HOME/.local/bin/redbot-setup backup Dronefly backups/redbot >/dev/null
+$HOME/.local/bin/redbot-setup backup Dumbo backups/redbot >/dev/null
+$HOME/.local/bin/redbot-setup backup SeedWasp backups/redbot >/dev/null
+$HOME/.local/bin/redbot-setup backup Polistes backups/redbot >/dev/null
+rsync -a -e "ssh" --delete backups/redbot/ hope.edennet:backups/redbot/
+rsync -a -e "ssh" --delete backups/redbot/ tiam.wrweo.ca:backups/redbot/

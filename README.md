@@ -170,6 +170,7 @@ See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thoroug
 - **roleutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
 - **serverstats** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
 - **stickyroles** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+- **toggleslow** repo: palmtree5-cogs https://github.com/palmtree5/palmtree5-cogs redv3-rewrites
 - **warnings** core
 
 ### CuckooBee

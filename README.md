@@ -56,9 +56,6 @@ Red DiscordBot configurations for Dronefly and associated bots
     - see: https://dronefly.readthedocs.io/en/latest/guide_for_participants.html#dronefly-custom-commands
 - **welcome** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
     - see `,help welcomeset` for help setting up
-- **wikipedia** repo: PCXCogs https://github.com/PhasecoreX/PCXCogs
-    - using my fork for now until my PR is merged: https://github.com/synrg/PCXCogs
-    - https://github.com/PhasecoreX/PCXCogs/pull/101
 
 ### SeedWasp
 
@@ -95,6 +92,9 @@ See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thoroug
 - **weather** repo: Trusty-cogs-dpy2 https://github.com/TrustyJAID/Trusty-cogs/ dpy-2.0
     - not in use on Dronefly; testing for Dumbo
 - **welcome** repo: Trusty-cogs-dpy2 https://github.com/TrustyJAID/Trusty-cogs/ dpy-2.0
+- **wikipedia** repo: PCXCogs https://github.com/PhasecoreX/PCXCogs
+    - using my fork for now until my PR is merged: https://github.com/synrg/PCXCogs
+    - https://github.com/PhasecoreX/PCXCogs/pull/101
 
 ### Dumbo
 

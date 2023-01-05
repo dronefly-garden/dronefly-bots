@@ -56,6 +56,9 @@ Red DiscordBot configurations for Dronefly and associated bots
     - see: https://dronefly.readthedocs.io/en/latest/guide_for_participants.html#dronefly-custom-commands
 - **welcome** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
     - see `,help welcomeset` for help setting up
+- **wikipedia** repo: PCXCogs https://github.com/PhasecoreX/PCXCogs
+    - using my fork for now until my PR is merged: https://github.com/synrg/PCXCogs
+    - https://github.com/PhasecoreX/PCXCogs/pull/101
 
 ### SeedWasp
 

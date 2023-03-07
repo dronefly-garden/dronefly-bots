@@ -71,7 +71,6 @@ See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thoroug
 - **botstatus** repo: Dav-Cogs-red35 https://github.com/Dav-Git/Dav-Cogs red3.5
 - **cleanup** core
 - **commandstats** repo: Flare-Cogs-dpy2 https://github.com/flaree/Flare-Cogs dpy2
-    - currently won't install (Flare has it locked to 3.4)
 - **converters** repo: predacogs-dpy2 https://github.com/PredaaA/predacogs feat/dpy-v2
     - not in use on Dronefly; testing for Dumbo
 - **downloader** core

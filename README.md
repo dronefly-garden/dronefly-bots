@@ -75,7 +75,6 @@ See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thoroug
     - not in use on Dronefly; testing for Dumbo
 - **downloader** core
 - **ebirdcog** repo: Dronefly-dpy2
-    - currently doesn't load properly (add_cog not awaited); disabled
 - **embedutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
 - **extendedmodlog** repo: Trusty-cogs-dpy2 https://github.com/TrustyJAID/Trusty-cogs dpy-2.0
 - **inatcog** repo: Dronefly-dpy2 https://github.com/dronefly-garden/dronefly dpy2

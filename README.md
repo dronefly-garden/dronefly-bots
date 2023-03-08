@@ -75,8 +75,12 @@ See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thoroug
     - not in use on Dronefly; testing for Dumbo
 - **downloader** core
 - **ebirdcog** repo: Dronefly-dpy2
-- **embedutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
+- **embedutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs dpy2
 - **extendedmodlog** repo: Trusty-cogs-dpy2 https://github.com/TrustyJAID/Trusty-cogs dpy-2.0
+- **fifo** repo: https://github.com/Bobloy/Fox-V3
+  - using my fork for now: https://github.com/synrg/Fox-V3 dpy2
+- **firstmessage** repo: https://github.com/Bobloy/Fox-V3
+  - using my fork for now: https://github.com/synrg/Fox-V3 dpy2
 - **inatcog** repo: Dronefly-dpy2 https://github.com/dronefly-garden/dronefly dpy2
 - **modlog** core
 - **permissions** core

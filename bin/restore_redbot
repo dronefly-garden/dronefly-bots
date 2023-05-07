@@ -31,5 +31,5 @@ echo "Start bot instances with these commands:"
 echo
 for bot in $bots
 do
-    echo "    systemctl --user start red@${bot}"
+    echo "    sudo systemctl start red@${bot}"
 done

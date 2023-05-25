@@ -24,6 +24,8 @@ Red DiscordBot configurations for Dronefly and associated bots
 - **extendedmodlog** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
     - shunt command logging to a specific mods-only channel
 - **fifo** repo: Fox-V3 https://github.com/bobloy/Fox-V3
+    - currently installed from my PR supporting red 3.5:
+      https://github.com/synrg/Fox-V3 PR-fifo-firstmessage-red3.4+3.5
     - on selected servers to schedule detailed `,ebird hybrids` command execution in a specific channel for a specific location
 - **inatcog** repo: Dronefly https://github.com/dronefly-garden/dronefly
     - configured by:
@@ -45,6 +47,7 @@ Red DiscordBot configurations for Dronefly and associated bots
     - can be used to ping a specific role when a feed is updated, e.g.
         - `,rssnotifier addroles fly-guide #bot-testing FliNat`
 - **say** repo: Laggrons-Dumb-Cogs https://github.com/retke/Laggrons-Dumb-Cogs
+    - currently installed from Laggron's `dpy2.0` branch to support red 3.5
     - can be used to make Dronefly "speak" in another channel, e.g.
         - `,say #chat Feed me.`
 - **serverstats** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
@@ -68,35 +71,10 @@ See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thoroug
 
 #### cogs
 
-- **botstatus** repo: Dav-Cogs-red35 https://github.com/Dav-Git/Dav-Cogs red3.5
-- **cleanup** core
-- **commandstats** repo: Flare-Cogs-dpy2 https://github.com/flaree/Flare-Cogs dpy2
-- **converters** repo: predacogs-dpy2 https://github.com/PredaaA/predacogs feat/dpy-v2
-    - not in use on Dronefly; testing for Dumbo
-- **downloader** core
-- **ebirdcog** repo: Dronefly-dpy2
-- **embedutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs dpy2
-- **extendedmodlog** repo: Trusty-cogs-dpy2 https://github.com/TrustyJAID/Trusty-cogs dpy-2.0
-- **fifo** repo: https://github.com/Bobloy/Fox-V3
-  - using my fork for now: https://github.com/synrg/Fox-V3 dpy2
-- **firstmessage** repo: https://github.com/Bobloy/Fox-V3
-  - using my fork for now: https://github.com/synrg/Fox-V3 dpy2
-- **inatcog** repo: Dronefly-dpy2 https://github.com/dronefly-garden/dronefly dpy2
-- **modlog** core
-- **permissions** core
-- **retrigger** repo: Trusty-cogs-dpy2 https://github.com/TrustyJAID/Trusty-cogs dpy-2.0
-- **rss** repo: aikaterna-cogs-dpy2 https://github.com/aikaterna/aikaterna-cogs v3_dpy2.0
-- **rssnotifier** repo: JackCogs https://github.com/jack1142/JackCogs
-    - currently doesn't load properly (add_cog not awaited); disabled
-- **say** repo: Laggrons-Dumb-Cogs-dpy2 https://github.com/laggron42/Laggrons-Dumb-Cogs dpy2.0
-- **serverstats** repo: Trusty-cogs-dpy2 https://github.com/TrustyJAID/Trusty-cogs dpy-2.0
-- **tags** repo: phen-cogs-dpy2 https://github.com/phenom4n4n/phen-cogs dpy2
-- **weather** repo: Trusty-cogs-dpy2 https://github.com/TrustyJAID/Trusty-cogs/ dpy-2.0
-    - not in use on Dronefly; testing for Dumbo
-- **welcome** repo: Trusty-cogs-dpy2 https://github.com/TrustyJAID/Trusty-cogs/ dpy-2.0
-- **wikipedia** repo: PCXCogs https://github.com/PhasecoreX/PCXCogs
-    - using my fork for now until my PR is merged: https://github.com/synrg/PCXCogs
-    - https://github.com/PhasecoreX/PCXCogs/pull/101
+- every cog that is on Dronefly is also on SeedWasp from the same repos.
+- additionally, SeedWasp has `weather` and `wikipedia`
+    - a perk for servers that have invited this instance instead of Dronefly
+    - see Dumbo's cogs for details
 
 ### Dumbo
 
@@ -107,37 +85,47 @@ See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thoroug
 
 #### cogs
 
-- **botstatus** repo: Dav-Cogs https://github.com/Dav-Git/Dav-Cogs
-- **cleanup** core
-- **commandstats** repo: Flare-Cogs https://github.com/flaree/Flare-Cogs
-- **downloader** core
+- selected cogs that are also on Dronefly or SeedWasp (same versions):
+  `botstatus cleanup commandstats downloader embedutils extendedmodlog`
+  `fifo modlog permissions retrigger say serverstats tags weather`    
+- plus additional cogs listed below
+- **aiart** repo: kaogurai-cogs https://github.com/kaogurai/cogs
+    - whole cog is disabled by default
+    - currently in evaluation on one server, on which many commands are disabled because they didn't produce useful results, or else produced largely nsfw images
 - **converters** repo: predacogs https://github.com/PredaaA/predacogs
-- **dalle** repo: aikaterna-cogs https://github.com/aikaterna/aikaterna-cogs
+    - numerous conversions provided via `-conv` command, e.g.
+        - `-conv c f 0` to convert 0C to 32F
+        - `-conv c f 32` to convert 32F to 0C
 - **dictionary** repo: aikaterna-cogs https://github.com/aikaterna/aikaterna-cogs
-- **downloader** core
-- **embedutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
-- **eventposter** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
-- **extendedmodlog** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
-- **fifo** repo: Fox-V3 https://github.com/bobloy/Fox-V3
+    - `-define` command providing basic dictionary lookup
+- **editor** repo: Toxic-Cogs https://github.com/NeuroAssassin/Toxic-Cogs
+    - `-editmessage` command to edit a message the bot sent
+- **firstmessage** repo: Fox-V3 https://github.com/bobloy/Fox-V3
+    - currently installed from my PR supporting red 3.5:
+      https://github.com/synrg/Fox-V3 PR-fifo-firstmessage-red3.4+3.5
 - **general** core
-- **modlog** core
-- **permissions** core
+    - various toy or useful commands
+    - `-help General` for a list of all commands
 - **randimals** repo: tmerc-cogs https://github.com/tmercswims/tmerc-cogs
-- **reactpoll** repo: FlapJack-Cogs https://github.com/flapjax/FlapJack-Cogs
-- **reacttickets** repo: SauriCogs https://github.com/elijabesu/SauriCogs
+    - various random animal images
+    - `-help Randimals` for a list of all commands
 - **remindme** repo: PCXCogs https://github.com/PhasecoreX/PCXCogs
-- **retrigger** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
-- **say** repo: Laggrons-Dumb-Cogs https://github.com/laggron42/Laggrons-Dumb-Cogs
+    - `-remindme` to send user a reminder relative to the current time
 - **seen** repo: aikaterna-cogs https://github.com/aikaterna/aikaterna-cogs
-- **serverstats** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+    - `-seen <user>` to report when they were last seen in chat
 - **simplecalculator** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
-- **strawpoll** repo: Sharky https://github.com/SharkyTheKing/Sharky
-- **tags** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
+   - `-calc` to perform basic math calculations
 - **timezone** repo: aikaterna-cogs https://github.com/aikaterna/aikaterna-cogs
+   - `-time me` to show or set your current time zone
+   - `-time compare <user>` to compare your time to another user's time in their time zone
 - **trivia** core
-- **tweets** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+   - set up on `#trivia` channel in iNat Discord server; instructions are pinned
 - **weather** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+   - `-weather` (alias `-we`) provides crowdsourced weather current conditions and forecasts from openweathermap.org
+   - registered with Ben's API key, providing up to 1,000 weather API calls per day free and up to $1.50 per day for an additional 1K calls to a max of 2K
+   - we don't expect to ever have to dip into the paid limit - if we're wrong about that, we may have to reevaluate offering this one
 - **wikipedia** repo: PCXCogs https://github.com/PhasecoreX/PCXCogs
+   - `-wiki` to perform Wikipedia.org lookups
 
 ### Pickerel
 
@@ -162,21 +150,32 @@ See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thoroug
 
 #### cogs
 
+- apart from a handful of standard cogs on the other bots, the special-purpose admin bot cogs below
 - **admin** core
-- **cleanup** core
+    - various commands for server administration
+    - `;help Admin` to list them all
 - **deleter** repo: Toxic-Cogs https://github.com/NeuroAssassin/Toxic-Cogs
-- **botstatus** repo: Dav-Cogs https://github.com/Dav-Git/Dav-Cogs
-- **downloader** core
-- **extendedmodlog** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+    - `;deleter channel` to set a channel's automatic message deletion period
+    - automatically deletes old messages in modlog channels and trivia so the server doesn't accumulate a large number of transient messages with low or negative value to retain
+    - each channel has the retention period stated in the channel description
 - **lockdown** repo: palmtree5-cogs https://github.com/palmtree5/palmtree5-cogs redv3-rewrites
+    - `;lockdown` to implement server lockdown - see Mod guide document for details (private Google doc)
 - **mod** core
-- **modlog** core
-- **permissions** core
+    - various commands for server moderation
+    - `;help Mod` to list them all
+- **roletools** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+    - make roles sticky, create dropdown and button menus
+    - `;help RoleTools` to list all commands
 - **roleutils** repo: phen-cogs https://github.com/phenom4n4n/phen-cogs
-- **serverstats** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
-- **stickyroles** repo: Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/
+    - commands to create reaction role menus, etc.
+    - on iNat server, `roletools` cog is now preferred
+    - `;help RoleUtils` to list all commands
 - **toggleslow** repo: palmtree5-cogs https://github.com/palmtree5/palmtree5-cogs redv3-rewrites
+    - `;toggleslow` to implement slowmode
 - **warnings** core
+    - `;warn` to warn a user
+    - other commands to view & maintain a warnings list, as well as perform automatic actions
+    - `;help Warnings` to list them all
 
 ### CuckooBee
 

@@ -170,7 +170,7 @@ See https://github.com/dronefly-garden/dronefly-bots/issues/1 for a more thoroug
     - commands to create reaction role menus, etc.
     - on iNat server, `roletools` cog is now preferred
     - `;help RoleUtils` to list all commands
-- **toggleslow** repo: palmtree5-cogs https://github.com/palmtree5/palmtree5-cogs redv3-rewrites
+- **slowmode** repo: palmtree5-cogs https://github.com/palmtree5/palmtree5-cogs redv3-rewrites
     - `;toggleslow` to implement slowmode
 - **warnings** core
     - `;warn` to warn a user

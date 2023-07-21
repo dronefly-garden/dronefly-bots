@@ -5,7 +5,7 @@ then
     "Refusing to restore on primary host. Restore manually if necessary."
     exit 1
 fi
-bots="Dronefly Dumbo Polistes"
+bots="Dronefly Dumbo Polistes SeedWasp"
 echo "Restoring latest bot backups ..."
 echo
 for bot in $bots

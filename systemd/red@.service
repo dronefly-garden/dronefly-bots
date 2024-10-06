@@ -6,7 +6,7 @@ Wants=network-online.target
 
 [Service]
 EnvironmentFile=/etc/systemd/system/red.env
-ExecStart=/home/redbot/.pyenv/versions/red-3.5/bin/redbot %I --no-prompt $RED_ARGS_%I
+ExecStart=/home/redbot/.pyenv/versions/red-3.5/bin/python -O -m redbot %I --no-prompt $RED_ARGS_%I
 User=redbot
 Group=redbot
 Type=idle
